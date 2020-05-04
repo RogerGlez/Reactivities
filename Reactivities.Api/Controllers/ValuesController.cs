@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Reactivities.Data;
+using Reactivities.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;

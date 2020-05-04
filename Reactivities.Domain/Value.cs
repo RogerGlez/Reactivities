@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Reactivities.Data
+namespace Reactivities.Domain
 {
     public class Value
     {
