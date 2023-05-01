@@ -24,12 +24,13 @@ export default function ActivityForm({ closeForm, activity: selectedActivity, cr
 
   function handleSubmit() {
     console.log(activity);
+    createOrEdit(activity);
   }
 
   function handleInputChange(event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { name, value } = event.target;
     setActivity({ ...activity, [name]: value })
-    createOrEdit(activity);
+    
   }
 
   return (
